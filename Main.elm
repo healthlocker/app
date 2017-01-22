@@ -38,7 +38,7 @@ type Msg
 
 view : Model -> Html Msg
 view model =
-    div [ class "center mh2 mt2" ]
+    div [ class "center mh2 mt2 mh5-m mh7-l" ]
         [ h3 [ class "tc bg-near-white pv2 mh3 black-70" ] [ text model.question ]
         , div [ class "mh4" ]
             [ textarea [ class "w-100 h4 mb2 b--light-blue", style [ ( "resize", "none" ) ] ] []
