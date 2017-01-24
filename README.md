@@ -1,5 +1,23 @@
 # Content UI
 
+### Using this repo
+
+You can either clone this repo by copying & pasting into your terminal:
+
+```
+git clone git@github.com:healthlocker/app.git
+```
+
+*Or* you can download a zip of the repo by clicking on the `Clone or download`
+button:
+
+![clone download button](https://cloud.githubusercontent.com/assets/1287388/22244238/a8257200-e222-11e6-83e1-a79d89d92b64.png)
+
+You can then view the content by right clicking on the `index.html` file and
+opening it in the browser.
+
+### What was used?
+
 The content UI was built using plain HTML and [Tachyons](http://tachyons.io/)
 for styling.
 
@@ -9,6 +27,8 @@ documentation](http://tachyons.io/docs/table-of-styles/) if you
 want to find out what each class does. However, there is also a [**verbose**
 version](https://github.com/tachyons-css/tachyons-display-verbose) of tachyons
 which is clearer for some to get started with.
+
+### Why Tachyons?
 
 The reason for using tachyons instead of plain CSS, or another framework such
 as bootstrap are outlined (*in style!*) in the [DWYL learn-tachyons
